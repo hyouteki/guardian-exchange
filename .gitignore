@@ -1,0 +1,60 @@
+# Python cache
+**__pycache__/
+*.pyc
+*.pyo
+
+# Django secret files
+.env
+**.env
+config/settings/local.py  # If you have a local settings override
+
+# Database
+db.sqlite3
+*.sqlite3
+*.db
+
+# Logs
+*.log
+logs/
+debug.log
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Node modules (if using frontend tools)
+node_modules/
+
+# Static and media files
+staticfiles/
+media/
+*.tar.gz
+*.zip
+
+# Compiled files
+*.out
+*.o
+*.so
+
+# IDE / Editor Files
+.vscode/
+.idea/
+*.swp
+*~  # Backup files
+
+# Coverage and testing
+.coverage
+htmlcov/
+pytest_cache/
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+
+# Docker
+docker-compose.override.yml
+
+# Ignore migrations (optional)
+# ** Only ignore if you plan to recreate migrations each time **
+# migrations/
